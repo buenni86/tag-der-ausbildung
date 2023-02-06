@@ -122,7 +122,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/map.json#startFrankfurt"
+                 "value":".\/tag-der-ausbildung#startFrankfurt"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -1084,7 +1084,7 @@
         {
          "name":"mapCopyright",
          "type":"string",
-         "value":"Credits: WorkAdventure (https:\/\/WorkAdventu.re) \nLicense: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
+         "value":"Credits: DB Systel \nLicense: CC-BY-SA 3.0 (http:\/\/creativecommons.org\/licenses\/by-sa\/3.0\/)"
         }, 
         {
          "name":"mapDescription",
@@ -1094,12 +1094,12 @@
         {
          "name":"mapImage",
          "type":"string",
-         "value":"map.png"
+         "value":"maps\/frankfurt.png"
         }, 
         {
          "name":"mapName",
          "type":"string",
-         "value":"Office"
+         "value":"Frankfurt-Ausbildung"
         }, 
         {
          "name":"script",

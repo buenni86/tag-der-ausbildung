@@ -279,13 +279,13 @@
             0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":84,
          "id":68,
-         "name":"exittoTest",
+         "name":"exittoFrankfurt",
          "opacity":1,
          "properties":[
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/Frankfurt.json"
+                 "value":".\/frankfurt-ausbildung"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -386,7 +386,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/Erfurt.json"
+                 "value":".\/erfurt-ausbildung"
                 }],
          "type":"tilelayer",
          "visible":true,
