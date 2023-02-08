@@ -2441,7 +2441,7 @@
                         {
                          "name":"focusable",
                          "type":"bool",
-                         "value":true
+                         "value":false
                         }, 
                         {
                          "name":"jitsiConfig",
@@ -2452,11 +2452,6 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"mainStage"
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":1
                         }],
                  "rotation":0,
                  "visible":true,
