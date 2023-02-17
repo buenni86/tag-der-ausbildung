@@ -937,7 +937,34 @@
          "draworder":"topdown",
          "id":59,
          "name":"text",
-         "objects":[],
+         "objects":[
+                {
+                 "class":"",
+                 "height":67.6667,
+                 "id":64,
+                 "name":"",
+                 "properties":[
+                        {
+                         "name":"font-family",
+                         "type":"string",
+                         "value":"\"Press Start 2P\""
+                        }],
+                 "rotation":0,
+                 "text":
+                    {
+                     "color":"#ffffff",
+                     "fontfamily":"Press Start 2P",
+                     "halign":"center",
+                     "pixelsize":27,
+                     "text":"Frankfurt",
+                     "valign":"center",
+                     "wrap":true
+                    },
+                 "visible":true,
+                 "width":309.333666666667,
+                 "x":421.999833333333,
+                 "y":263.499983333333
+                }],
          "opacity":1,
          "type":"objectgroup",
          "visible":true,
@@ -1105,7 +1132,7 @@
          "y":0
         }],
  "nextlayerid":76,
- "nextobjectid":62,
+ "nextobjectid":65,
  "orientation":"orthogonal",
  "properties":[
         {
