@@ -1,13 +1,14 @@
 //import content json interface (to avoid ts errors)
 import {Root} from "./interface-declaration";
 
+(async() => { 
 //load json
-var content: Root = await fetch("./Web-Bahnhofstafel_files/content.json").then((response) => { 
+var content: Root = await fetch("./station_sign_files/content.json").then((response) => { 
     return response.json().then((data) => {
         return data
         })
     }
-);
+)
 
 //load links in title bar for each link in json
 //append db logo in the end
@@ -20,7 +21,7 @@ for (let x of content.tafel.misc.links) {
     a.innerHTML = x.link.title;
     titleBarRight.appendChild(a);
 }
-titleBarRight.innerHTML += "<span class='logos'><img id='logo-0-0' class='logo' src='./Web-Bahnhofstafel_files/Logo.gif'></span>"
+titleBarRight.innerHTML += "<span class='logos'><img id='logo-0-0' class='logo' src='./station_sign_files/Logo.gif'></span>"
 
 //append Tafel Header
 document.getElementById("tafelHeader")!.innerHTML = content.tafel.misc.header;
@@ -104,5 +105,7 @@ if(content.tafel.misc.unterschrift != ""){
     additionalText.innerHTML = content.tafel.misc.unterschrift;
     document.getElementById("additionalTextContainer")?.appendChild(additionalText);
 }
+
+;})().catch(e => console.error(e));
 
 export {};

@@ -2369,7 +2369,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":".\/Web-Bahnhofstafel.html"
+                         "value":"..\/src\/customStationSign\/web_station_sign.html"
                         }],
                  "rotation":0,
                  "visible":true,

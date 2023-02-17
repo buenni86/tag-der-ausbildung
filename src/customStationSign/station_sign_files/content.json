@@ -1,0 +1,59 @@
+{
+    "tafel": {
+        "misc": {
+            "header": "Zeitplan Zukunftswochen",
+            "gelbeLeiste":{
+                "col1":"Zeit",
+                "col2":"Nach",
+                "col3":"Über",
+                "col4":"Gleis"
+            },
+            "unterschrift":"",
+            "links": [
+                {"link": {
+                    "to" : "https://bahn360.deutschebahn.com/ ",
+                    "title": "Bahn 360"
+                }}
+            ]
+        },
+        "content": [
+            {"eintrag": {
+                "col1":{
+                    "zeit":"8:00",
+                    "zugnummer":"ICE 500"
+                },
+                "col2": "TestBHF",
+                "col3": {
+                    "whiteText":"Test,tost,tast",
+                    "yellowText":"ca. 9999 Minuten später"
+                },
+                "col4": "0"
+            }},
+            {"eintrag": {
+                "col1":{
+                    "zeit":"9:00",
+                    "zugnummer":"ICE 510"
+                },
+                "col2": "TestBHF2",
+                "col3": {
+                    "whiteText":"Test,tost,tast2222",
+                    "yellowText":"ca. 99929 Minuten später"
+                },
+                "col4": "1"
+            }},
+            {"eintrag": {
+                "col1":{
+                    "zeit":"9:00",
+                    "zugnummer":"ICE 510"
+                },
+                "col2": "TestBHF2",
+                "col3": {
+                    "whiteText":"Test,tost,tast2222",
+                    "yellowText":"ca. 99929 Minuten später"
+                },
+                "col4": "1"
+            }}
+
+        ]
+    }
+}
