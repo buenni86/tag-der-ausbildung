@@ -1,7 +1,7 @@
 {
     "tafel": {
         "misc": {
-            "header": "Zeitplan Zukunftswochen",
+            "header": "Zeitplan Tag der Ausbildung",
             "gelbeLeiste":{
                 "col1":"Zeit",
                 "col2":"Nach",
@@ -11,8 +11,8 @@
             "unterschrift":"",
             "links": [
                 {"link": {
-                    "to" : "https://bahn360.deutschebahn.com/ ",
-                    "title": "Bahn 360"
+                    "to" : "#",
+                    "title": "Test"
                 }}
             ]
         },
