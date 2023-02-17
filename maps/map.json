@@ -285,7 +285,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/Frankfurt.json"
+                 "value":".\/Frankfurt"
                 }],
          "type":"tilelayer",
          "visible":true,
