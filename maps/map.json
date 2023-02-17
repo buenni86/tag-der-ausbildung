@@ -285,7 +285,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/Frankfurt"
+                 "value":".\/frankfurt-ausbildung"
                 }],
          "type":"tilelayer",
          "visible":true,
