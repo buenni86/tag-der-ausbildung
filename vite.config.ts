@@ -8,6 +8,7 @@ export default defineConfig({
             input: {
                 index: "./index.html",
                 web_station_sign: "./src/customStationSign/web_station_sign.html",
+                teamDescripions: "./src/teamDescripions/index.html",
                 ...getMapsScripts("./maps"),
             },
         },
