@@ -1,8 +1,16 @@
 {"descriptions": [
     {
         "name":"test",
+        "fullName":"test",
         "mailto":"test@mail.de",
-        "location":"FRA",
+        "location":"Frankfurt",
+        "text":"lorem ipsum"
+    },
+    {
+        "name":"test2",
+        "fullName":"Team Nukleus",
+        "mailto":"test@mail.de",
+        "location":"Frankfurt",
         "text":"lorem ipsum"
     }
 ]}
