@@ -29,8 +29,11 @@ function buildHTMLElement(json: Description){
     return div;
 }
 
-const d = await getDescriptions();
+async function main() {
+    const d = await getDescriptions();
+    document.body.appendChild(buildHTMLElement(d));
+}
 
-document.body.appendChild(buildHTMLElement(d));
+main();
 
 export {}
