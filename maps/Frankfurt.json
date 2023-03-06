@@ -1152,6 +1152,12 @@
                  "height":59.5,
                  "id":72,
                  "name":"entrance1",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"..\/src\/teamDescriptions\/index.html?name=test2"
+                        }],
                  "rotation":0,
                  "visible":true,
                  "width":63,
