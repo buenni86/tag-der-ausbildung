@@ -18,10 +18,14 @@ function buildHTMLElement(json: Description){
 
     const location = document.createElement("p");
     location.classList.add("location")
-    location.innerHTML = "Standort(e): " + json.location;
+    location.innerHTML = "Standort/e: " + json.location;
 
     const p = document.createElement("p");
     p.innerHTML = json.text;
+
+    const mail = document.createElement("p");
+    mail.innerHTML = json.mailto;
+    mail.addEventListener("click", function (){window.location.href = "mailto:" + json.mailto})
 
     div.appendChild(h1);
     div.appendChild(location);
