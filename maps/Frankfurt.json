@@ -1632,7 +1632,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"..\/src\/teamDescriptions\/index.html?name=test2"
+                         "value":"..\/src\/teamDescriptions\/index.html?name=evs"
                         }],
                  "rotation":0,
                  "visible":true,
