@@ -963,6 +963,40 @@
                  "width":193.703987372891,
                  "x":510.962845960442,
                  "y":304.16665
+                }, 
+                {
+                 "class":"",
+                 "height":42.3333,
+                 "id":70,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "fontfamily":"Press Start 2P",
+                     "text":"System-Team\nVehicle IT",
+                     "wrap":true
+                    },
+                 "visible":true,
+                 "width":188.667,
+                 "x":834.999833333333,
+                 "y":804.166683333333
+                }, 
+                {
+                 "class":"area",
+                 "height":155.833,
+                 "id":71,
+                 "name":"entrance",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"..\/src\/teamDescriptions\/index.html?name=stvit"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":191.5,
+                 "x":834.25,
+                 "y":740.0835
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -999,8 +1033,30 @@
                  "rotation":0,
                  "visible":true,
                  "width":392,
-                 "x":732,
-                 "y":411
+                 "x":28.018326069952,
+                 "y":411.674265281037
+                }, 
+                {
+                 "class":"area",
+                 "height":326,
+                 "id":67,
+                 "name":"meeting",
+                 "properties":[
+                        {
+                         "name":"jitsiNoPrefix",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"tag-der-ausbildung-system-team-vehicle-it"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":392,
+                 "x":732.666666666667,
+                 "y":411.666666666667
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1131,7 +1187,7 @@
          "y":0
         }],
  "nextlayerid":76,
- "nextobjectid":67,
+ "nextobjectid":72,
  "orientation":"orthogonal",
  "properties":[
         {

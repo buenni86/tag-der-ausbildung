@@ -999,8 +999,64 @@
                  "rotation":0,
                  "visible":true,
                  "width":392,
-                 "x":732,
-                 "y":411
+                 "x":28.0107274555817,
+                 "y":412.340931947704
+                }, 
+                {
+                 "class":"area",
+                 "height":326,
+                 "id":67,
+                 "name":"meeting",
+                 "properties":[
+                        {
+                         "name":"jitsiNoPrefix",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"tag-der-ausbildung-system-team-vehicle-it"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":392,
+                 "x":732.591574477595,
+                 "y":412.275002793608
+                }, 
+                {
+                 "class":"",
+                 "height":42.3333,
+                 "id":68,
+                 "name":"",
+                 "rotation":0,
+                 "text":
+                    {
+                     "fontfamily":"Press Start 2P",
+                     "text":"System-Team\nVehicle IT",
+                     "wrap":true
+                    },
+                 "visible":true,
+                 "width":188.667,
+                 "x":833.6665,
+                 "y":802.83335
+                }, 
+                {
+                 "class":"area",
+                 "height":155.833,
+                 "id":69,
+                 "name":"entrance",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"..\/src\/teamDescriptions\/index.html?name=stvit"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":191.5,
+                 "x":832.916666666667,
+                 "y":740.0835
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -1131,7 +1187,7 @@
          "y":0
         }],
  "nextlayerid":76,
- "nextobjectid":67,
+ "nextobjectid":70,
  "orientation":"orthogonal",
  "properties":[
         {

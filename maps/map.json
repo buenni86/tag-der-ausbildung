@@ -1367,140 +1367,277 @@
                          "text":
                             {
                              "color":"#ffffff",
-                             "pixelsize":30,
-                             "text":"Gleis 1",
-                             "wrap":true
-                            },
-                         "visible":true,
-                         "width":100.333333333333,
-                         "x":2435.83333333333,
-                         "y":453.166666666667
-                        }, 
-                        {
-                         "class":"",
-                         "height":30,
-                         "id":32,
-                         "name":"",
-                         "rotation":0,
-                         "text":
-                            {
-                             "color":"#ffffff",
-                             "pixelsize":30,
-                             "text":"Gleis 2",
-                             "wrap":true
-                            },
-                         "visible":true,
-                         "width":100.333,
-                         "x":2433.8335,
-                         "y":738.333333333333
-                        }, 
-                        {
-                         "class":"",
-                         "height":30,
-                         "id":33,
-                         "name":"",
-                         "rotation":0,
-                         "text":
-                            {
-                             "color":"#ffffff",
-                             "pixelsize":30,
+                             "fontfamily":"Press Start 2P",
                              "text":"Gleis 3",
                              "wrap":true
                             },
                          "visible":true,
-                         "width":100.333,
-                         "x":2436.50016666667,
-                         "y":1022.33333333333
+                         "width":113.333333333333,
+                         "x":2426.83333333333,
+                         "y":1036.16666666667
                         }, 
                         {
                          "class":"",
                          "height":30,
-                         "id":34,
+                         "id":94,
                          "name":"",
                          "rotation":0,
                          "text":
                             {
                              "color":"#ffffff",
-                             "pixelsize":30,
-                             "text":"Gleis 6",
+                             "fontfamily":"Press Start 2P",
+                             "text":"Gleis 1",
                              "wrap":true
                             },
                          "visible":true,
-                         "width":100.333,
-                         "x":2436.50016666667,
-                         "y":1882.33333333333
+                         "width":113.333,
+                         "x":2425.3335,
+                         "y":465
                         }, 
                         {
                          "class":"",
                          "height":30,
-                         "id":35,
+                         "id":95,
                          "name":"",
                          "rotation":0,
                          "text":
                             {
                              "color":"#ffffff",
-                             "pixelsize":30,
+                             "fontfamily":"Press Start 2P",
+                             "text":"Gleis 2",
+                             "wrap":true
+                            },
+                         "visible":true,
+                         "width":113.333,
+                         "x":2426.3335,
+                         "y":750
+                        }, 
+                        {
+                         "class":"",
+                         "height":30,
+                         "id":96,
+                         "name":"",
+                         "rotation":0,
+                         "text":
+                            {
+                             "color":"#ffffff",
+                             "fontfamily":"Press Start 2P",
                              "text":"Gleis 4",
                              "wrap":true
                             },
                          "visible":true,
-                         "width":100.333,
-                         "x":2436.50016666667,
-                         "y":1311.66666666667
+                         "width":113.333,
+                         "x":2425.3335,
+                         "y":1325
                         }, 
                         {
                          "class":"",
                          "height":30,
-                         "id":36,
+                         "id":97,
                          "name":"",
                          "rotation":0,
                          "text":
                             {
                              "color":"#ffffff",
-                             "pixelsize":30,
+                             "fontfamily":"Press Start 2P",
                              "text":"Gleis 5",
                              "wrap":true
                             },
                          "visible":true,
-                         "width":100.333,
-                         "x":2437.8335,
-                         "y":1597
+                         "width":113.333,
+                         "x":2424.3335,
+                         "y":1612
                         }, 
                         {
                          "class":"",
                          "height":30,
-                         "id":37,
+                         "id":98,
                          "name":"",
                          "rotation":0,
                          "text":
                             {
                              "color":"#ffffff",
-                             "pixelsize":30,
+                             "fontfamily":"Press Start 2P",
+                             "text":"Gleis 6",
+                             "wrap":true
+                            },
+                         "visible":true,
+                         "width":113.333,
+                         "x":2425.3335,
+                         "y":1899
+                        }, 
+                        {
+                         "class":"",
+                         "height":30,
+                         "id":99,
+                         "name":"",
+                         "rotation":0,
+                         "text":
+                            {
+                             "color":"#ffffff",
+                             "fontfamily":"Press Start 2P",
                              "text":"Gleis 7",
                              "wrap":true
                             },
                          "visible":true,
-                         "width":100.333,
-                         "x":2435.16683333333,
-                         "y":2170.33333333333
+                         "width":113.333,
+                         "x":2423.3335,
+                         "y":2189
                         }, 
                         {
                          "class":"",
                          "height":30,
-                         "id":38,
+                         "id":100,
                          "name":"",
                          "rotation":0,
                          "text":
                             {
                              "color":"#ffffff",
-                             "pixelsize":30,
+                             "fontfamily":"Press Start 2P",
                              "text":"Gleis 8",
                              "wrap":true
                             },
                          "visible":true,
-                         "width":100.333,
-                         "x":2436.50016666667,
-                         "y":2465
+                         "width":113.333,
+                         "x":2425.3335,
+                         "y":2473.33333333333
+                        }, 
+                        {
+                         "class":"",
+                         "height":45.9999999999995,
+                         "id":101,
+                         "name":"",
+                         "rotation":0,
+                         "text":
+                            {
+                             "fontfamily":"Press Start 2P",
+                             "pixelsize":8,
+                             "text":"Map by Team EVS\nLeon Prinz",
+                             "wrap":true
+                            },
+                         "visible":true,
+                         "width":189.333333333333,
+                         "x":1922.16666666667,
+                         "y":2663
+                        }],
+                 "opacity":1,
+                 "type":"objectgroup",
+                 "visible":true,
+                 "x":0,
+                 "y":0
+                }, 
+                {
+                 "draworder":"topdown",
+                 "id":77,
+                 "name":"labelStandort",
+                 "objects":[
+                        {
+                         "class":"",
+                         "height":24,
+                         "id":85,
+                         "name":"",
+                         "rotation":0,
+                         "text":
+                            {
+                             "color":"#ffffff",
+                             "fontfamily":"Press Start 2P",
+                             "text":"Frankfurt ->",
+                             "wrap":true
+                            },
+                         "visible":true,
+                         "width":214,
+                         "x":2591,
+                         "y":599.5
+                        }, 
+                        {
+                         "class":"",
+                         "height":24,
+                         "id":89,
+                         "name":"",
+                         "rotation":0,
+                         "text":
+                            {
+                             "color":"#ffffff",
+                             "fontfamily":"Press Start 2P",
+                             "text":"Frankfurt ->",
+                             "wrap":true
+                            },
+                         "visible":true,
+                         "width":214,
+                         "x":2594,
+                         "y":1177
+                        }, 
+                        {
+                         "class":"",
+                         "height":24,
+                         "id":90,
+                         "name":"",
+                         "rotation":0,
+                         "text":
+                            {
+                             "color":"#ffffff",
+                             "fontfamily":"Press Start 2P",
+                             "text":"Berlin ->",
+                             "wrap":true
+                            },
+                         "visible":true,
+                         "width":214,
+                         "x":2596,
+                         "y":2040
+                        }, 
+                        {
+                         "class":"",
+                         "height":24,
+                         "id":91,
+                         "name":"",
+                         "rotation":0,
+                         "text":
+                            {
+                             "color":"#ffffff",
+                             "fontfamily":"Press Start 2P",
+                             "text":"Berlin ->",
+                             "wrap":true
+                            },
+                         "visible":true,
+                         "width":214,
+                         "x":2595,
+                         "y":890
+                        }, 
+                        {
+                         "class":"",
+                         "height":24,
+                         "id":92,
+                         "name":"",
+                         "rotation":0,
+                         "text":
+                            {
+                             "color":"#ffffff",
+                             "fontfamily":"Press Start 2P",
+                             "text":"Erfurt ->",
+                             "wrap":true
+                            },
+                         "visible":true,
+                         "width":214,
+                         "x":2596,
+                         "y":2618
+                        }, 
+                        {
+                         "class":"",
+                         "height":24,
+                         "id":93,
+                         "name":"",
+                         "rotation":0,
+                         "text":
+                            {
+                             "color":"#ffffff",
+                             "fontfamily":"Press Start 2P",
+                             "text":"Erfurt ->",
+                             "wrap":true
+                            },
+                         "visible":true,
+                         "width":214,
+                         "x":2595,
+                         "y":1755
                         }],
                  "opacity":1,
                  "type":"objectgroup",
@@ -2885,8 +3022,8 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":77,
- "nextobjectid":85,
+ "nextlayerid":78,
+ "nextobjectid":103,
  "orientation":"orthogonal",
  "properties":[
         {
