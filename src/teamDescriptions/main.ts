@@ -30,6 +30,7 @@ function buildHTMLElement(json: Description){
     div.appendChild(h1);
     div.appendChild(location);
     div.appendChild(p);
+    div.appendChild(mail);
     return div;
 }
 
