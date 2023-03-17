@@ -87,7 +87,10 @@ class WAE {
             "id":"minimap",// @ts-ignore
             "type":"action",
             "imageSrc":"../src/mapLogo.png",
-            "toolTip":"Minimap"
+            "toolTip":"Minimap",
+            "callback": () => {
+                WA.nav.openCoWebSite("https://google.com");
+            }
         })
     }
 }
