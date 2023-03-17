@@ -2,6 +2,7 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 import { ButtonDescriptor } from "@workadventure/iframe-api-typings";
+import { ActionBarButtonDescriptor } from "@workadventure/iframe-api-typings/front/Api/Iframe/Ui/ButtonActionBar";
 
 class WAE {
     buttons: {
@@ -75,6 +76,19 @@ class WAE {
                 currentModal = undefined;
             }
         }
+    }
+
+    actionButton(button: ActionBarButtonDescriptor){
+        WA.ui.actionBar.addButton(button);
+    }
+
+    minimapButton(){
+        WA.ui.actionBar.addButton({
+            "id":"minimap",
+            "type":"action",
+            "imageSrc":"../src/mapLogo.png",
+            "toolTip":"Minimap"
+        })
     }
 }
 

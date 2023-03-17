@@ -9,5 +9,6 @@ wae.init().then(() => {
         label: "Link1",
         className: "primary",
         callback: () => {}
-    },wae.buttons.close])
+    },wae.buttons.close]);
+    wae.minimapButton();
 });
