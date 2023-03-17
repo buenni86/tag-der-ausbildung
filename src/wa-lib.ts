@@ -86,7 +86,7 @@ class WAE {
         WA.ui.actionBar.addButton({
             "id":"minimap",// @ts-ignore
             "type":"action",
-            "imageSrc":"../src/mapLogo.png",
+            "imageSrc":"https://buenni86.github.io/tag-der-ausbildung/src/mapLogo.png",
             "toolTip":"Minimap",
             "callback": () => {
                 WA.nav.openCoWebSite("https://google.com");
