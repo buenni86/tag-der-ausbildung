@@ -84,7 +84,7 @@ class WAE {
 
     minimapButton(){
         WA.ui.actionBar.addButton({
-            "id":"minimap",
+            "id":"minimap",// @ts-ignore
             "type":"action",
             "imageSrc":"../src/mapLogo.png",
             "toolTip":"Minimap"
