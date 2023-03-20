@@ -1,5 +1,7 @@
 import { defineConfig } from "vite";
-import { getMapsOptimizers, getMapsScripts } from "wa-map-optimizer-vite";
+import { getMaps, getMapsOptimizers, getMapsScripts } from "wa-map-optimizer-vite";
+
+const maps = getMaps();
 
 export default defineConfig({
     base: "./",
@@ -9,11 +11,11 @@ export default defineConfig({
                 index: "./index.html",
                 web_station_sign: "./src/customStationSign/web_station_sign.html",
                 teamDescripions: "./src/teamDescriptions/index.html",
-                ...getMapsScripts("./maps"),
+                ...getMapsScripts(maps),
             },
         },
     },
-    plugins: [...getMapsOptimizers(undefined, "./maps")],
+    plugins: [...getMapsOptimizers(maps)],
     server: {
         host: "localhost",
         headers: {
