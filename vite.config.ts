@@ -14,6 +14,7 @@ export default defineConfig({
                 ...getMapsScripts(maps),
             },
         },
+        sourcemap: true,
     },
     plugins: [...getMapsOptimizers(maps)],
     server: {

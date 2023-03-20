@@ -89,12 +89,12 @@ class WAE {
             "type":"action",
             "imageSrc":"https://buenni86.github.io/tag-der-ausbildung/src/mapLogo.png",
             "toolTip":"Minimap",
-            "callback": () => {
+            "callback": async () => {
                 if (currentWebsite !== undefined) {
                     currentWebsite.close();
                     currentWebsite = undefined;
                 } else {
-                    currentWebsite = WA.nav.openCoWebSite("https://google.com");
+                    currentWebsite = await WA.nav.openCoWebSite("https://google.com");
                 }
             }
         })
