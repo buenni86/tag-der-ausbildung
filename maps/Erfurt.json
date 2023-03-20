@@ -1646,7 +1646,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"tag-der-ausbildung-system-einheit-datavision"
+                         "value":"tag-der-ausbildung-einheit-datavision"
                         }],
                  "rotation":0,
                  "visible":true,

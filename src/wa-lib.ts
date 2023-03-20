@@ -2,7 +2,7 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 import { ButtonDescriptor } from "@workadventure/iframe-api-typings";
-import { ActionBarButtonDescriptor } from "@workadventure/iframe-api-typings/front/Api/Iframe/Ui/ButtonActionBar";
+import { ActionBarActionButtonDescriptor } from "@workadventure/iframe-api-typings/front/Api/Iframe/Ui/ButtonActionBar";
 
 class WAE {
     buttons: {
@@ -78,14 +78,14 @@ class WAE {
         }
     }
 
-    actionButton(button: ActionBarButtonDescriptor){
+    actionButton(button: ActionBarActionButtonDescriptor){
         WA.ui.actionBar.addButton(button);
     }
 
     minimapButton(){
         let currentWebsite: any = undefined;
         WA.ui.actionBar.addButton({
-            "id":"minimap",// @ts-ignore
+            "id":"minimap",
             "type":"action",
             "imageSrc":"https://buenni86.github.io/tag-der-ausbildung/src/mapLogo.png",
             "toolTip":"Minimap",
