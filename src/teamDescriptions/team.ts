@@ -20,8 +20,8 @@ function buildHTMLElement(json: Description){
     location.classList.add("location")
     location.innerHTML = "Standort/e: " + json.location;
 
-    const p = document.createElement("p");
-    p.innerHTML = json.text;
+    const text = document.createElement("div");
+    text.innerHTML = "<p>" + json.text + "</p>";
 
     const mail = document.createElement("p");
     mail.innerHTML = json.mailto;
@@ -29,7 +29,7 @@ function buildHTMLElement(json: Description){
 
     div.appendChild(h1);
     div.appendChild(location);
-    div.appendChild(p);
+    div.appendChild(text);
     div.appendChild(mail);
     return div;
 }
