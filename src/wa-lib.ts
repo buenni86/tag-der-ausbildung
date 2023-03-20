@@ -48,6 +48,10 @@ class WAE {
         }
     }
 
+    popUpNoArea(display: string, text: string, buttons: ButtonDescriptor[]){
+        WA.ui.openPopup(display, text, buttons);
+    }
+
     modal(title: string, src: string, api: boolean){
         WA.ui.modal.openModal({
             position: "right",
@@ -78,6 +82,15 @@ class WAE {
         }
     }
 
+    cameraEvent(x: number, y: number, area: string){
+        WA.room.area.onEnter(area).subscribe(() => {
+            WA.camera.set(x,y,undefined,undefined,false,true);
+        });
+        WA.room.area.onLeave(area).subscribe(() => {
+            WA.camera.followPlayer(true)
+        });
+    }
+
     actionButton(button: ActionBarActionButtonDescriptor){
         WA.ui.actionBar.addButton(button);
     }
@@ -94,7 +107,7 @@ class WAE {
                     currentWebsite.close();
                     currentWebsite = undefined;
                 } else {
-                    currentWebsite = await WA.nav.openCoWebSite("https://google.com");
+                    currentWebsite = await WA.nav.openCoWebSite("https://buenni86.github.io/tag-der-ausbildung/src/minimapper");
                 }
             }
         })

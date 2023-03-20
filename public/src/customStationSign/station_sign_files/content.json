@@ -23,41 +23,40 @@
         "content": [
             {"eintrag": {
                 "col1":{
-                    "zeit":"8:00",
-                    "zugnummer":"ICE 500"
+                    "zeit":"8:45",
+                    "zugnummer":"Hauptbühne"
                 },
-                "col2": "TestBHF",
+                "col2": "Begrüßung",
                 "col3": {
-                    "whiteText":"Test,tost,tast",
-                    "yellowText":"ca. 9999 Minuten später"
+                    "whiteText":"Ankommen und Begrüßung an der Hauptbühne",
+                    "yellowText":""
                 },
                 "col4": "0"
             }},
             {"eintrag": {
                 "col1":{
                     "zeit":"9:00",
-                    "zugnummer":"ICE 510"
+                    "zugnummer":"Hauptbühne"
                 },
-                "col2": "TestBHF2",
+                "col2": "Systel-Slam",
                 "col3": {
-                    "whiteText":"Test,tost,tast2222",
-                    "yellowText":"ca. 99929 Minuten später"
+                    "whiteText":"Vorträge über die Systel",
+                    "yellowText":""
                 },
-                "col4": "1"
+                "col4": "0"
             }},
             {"eintrag": {
                 "col1":{
-                    "zeit":"9:00",
-                    "zugnummer":"ICE 510"
+                    "zeit":"10:00",
+                    "zugnummer":"Büros"
                 },
-                "col2": "TestBHF2",
+                "col2": "Marktstände Teil 1",
                 "col3": {
-                    "whiteText":"Test,tost,tast2222",
-                    "yellowText":"ca. 99929 Minuten später"
+                    "whiteText":"Fahrt mit den Zügen zu den Standorten",
+                    "yellowText":""
                 },
-                "col4": "1"
+                "col4": "1-8"
             }}
-
         ]
     }
 }

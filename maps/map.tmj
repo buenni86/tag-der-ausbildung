@@ -2665,6 +2665,38 @@
                  "width":313.667,
                  "x":1603.1665,
                  "y":1990.66666666667
+                }, 
+                {
+                 "class":"area",
+                 "height":1121.333,
+                 "id":111,
+                 "name":"b\u00fchne",
+                 "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": false, \"startWithAudioMuted\": false, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"Hauptb\u00fchne"
+                        }, 
+                        {
+                         "name":"jitsiTrigger",
+                         "type":"string",
+                         "value":"onaction"
+                        }, 
+                        {
+                         "name":"jitsiTriggerMessage",
+                         "type":"string",
+                         "value":"Dr\u00fccke LEERTASTE um dem Meetingraum beizutreten"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":1119.33333333333,
+                 "x":79.7395239691585,
+                 "y":654.098501676165
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2958,7 +2990,7 @@
          "y":0
         }],
  "nextlayerid":79,
- "nextobjectid":111,
+ "nextobjectid":112,
  "orientation":"orthogonal",
  "properties":[
         {

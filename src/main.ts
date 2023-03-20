@@ -5,10 +5,7 @@ import WAE from "./wa-lib";
 let wae = new WAE();
 
 wae.init().then(() => {
-    wae.popUp("javStep","javDisp","Hallo Welt!",[{
-        label: "Link1",
-        className: "primary",
-        callback: () => {}
-    },wae.buttons.close]);
+    wae.popUpNoArea("infoPopUp","Willkommen bei Workadveutre!\nBewege dich mit WASD, Pfeiltasten oder Rechtsklick.",[wae.buttons.close]);
     wae.minimapButton();
+    wae.cameraEvent(640,735,"bühne");
 });
