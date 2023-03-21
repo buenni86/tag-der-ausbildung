@@ -2,6 +2,7 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 import { ButtonDescriptor } from "@workadventure/iframe-api-typings";
+import { ActionBarActionButtonDescriptor } from "@workadventure/iframe-api-typings/front/Api/Iframe/Ui/ButtonActionBar";
 
 class WAE {
     buttons: {
@@ -81,19 +82,38 @@ class WAE {
         }
     }
 
-    cameraEvent(x: number, y: number, area: string){
+    async cameraEvent(x: number, y: number, area: string){
+        let b1: ActionBarActionButtonDescriptor = {
+            "id":"kamera",
+            "type":"action",
+            "imageSrc":"https://buenni86.github.io/tag-der-ausbildung/src/focus.png",
+            "toolTip":"Auf Bühne zoomen",
+            "callback": () => {
+                WA.camera.set(x,y,undefined,undefined,false,true);
+                WA.ui.actionBar.removeButton("kamera");
+                WA.ui.actionBar.addButton(b2);
+            }
+        }
+        let b2: ActionBarActionButtonDescriptor = {
+            "id":"kamera2",
+            "type":"action",
+            "imageSrc": await WA.player.getWokaPicture(),
+            "toolTip":"Auf Spieler zoomen",
+            "callback": () => {
+                WA.camera.followPlayer(true);
+                WA.ui.actionBar.removeButton("kamera2");
+                WA.ui.actionBar.addButton(b1);
+            }
+        }
+
+        
         WA.room.area.onEnter(area).subscribe(() => {
-            WA.ui.actionBar.addButton({
-                "id":"kamera",
-                "type":"action",
-                "imageSrc":"https://buenni86.github.io/tag-der-ausbildung/src/focus.png",
-                "toolTip":"Auf Bühne zoomen",
-                "callback": () => {WA.camera.set(x,y,undefined,undefined,false,true);}
-            })
+            WA.ui.actionBar.addButton(b1);
         });
         WA.room.area.onLeave(area).subscribe(() => {
             WA.camera.followPlayer(true);
             WA.ui.actionBar.removeButton("kamera");
+            WA.ui.actionBar.removeButton("kamera2");
         });
     }
 
