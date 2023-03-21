@@ -83,10 +83,11 @@ class WAE {
     }
 
     async cameraEvent(x: number, y: number, area: string){
+        let base64image: string = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAATZJREFUaEPtmcsNwjAMhr+uAwPABrANEgsACyCxDWwAA8A6IB8qIRHixE2VPuxLL3b6Pxw1qRtGHs3I8eMEajvoDgzdgRVwAeQZiyNwyiRzAKQuFg9gB8gzGLEWWgDPRFB9EWhfvwReISwxAldgMxACN2CbS+D9VVBrs6sYYsDU4kR3uqSpGJxAF3kTat2BViTfxAntEkqZdwvJp76N3GOCUfCfMhVDrd4uRdAvNMWUtC7kLWRVrlSdO1BKSes67oBVuVJ17kApJa3rTNoB9SBlVS2jTsXgd+IMNS2p877QqOwtkmbWqBh8D2QqmpvuDoz6v9A9YbDREux7PiADjnWo/2KbWKYyQiIl+iYg4INTGu0sJFOac8Kgoy8CMtjY/5vOiLIagRT1q+Y4garyewvVln8KDnwADiM+McXkgF4AAAAASUVORK5CYII="
         let b1: ActionBarActionButtonDescriptor = {
             "id":"kamera",
             "type":"action",
-            "imageSrc":"https://buenni86.github.io/tag-der-ausbildung/src/focus.png",
+            "imageSrc":base64image,
             "toolTip":"Auf Bühne zoomen",
             "callback": () => {
                 WA.camera.set(x,y,undefined,undefined,true,true);
