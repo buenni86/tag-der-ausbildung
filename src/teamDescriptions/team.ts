@@ -24,6 +24,7 @@ function buildHTMLElement(json: Description){
     text.innerHTML = "<p>" + json.text + "</p>";
 
     const mail = document.createElement("p");
+    mail.classList.add("mail");
     mail.innerHTML = json.mailto;
     mail.addEventListener("click", function (){window.location.href = "mailto:" + json.mailto})
 

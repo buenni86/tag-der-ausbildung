@@ -84,15 +84,18 @@ class WAE {
 
     cameraEvent(x: number, y: number, area: string){
         WA.room.area.onEnter(area).subscribe(() => {
-            WA.camera.set(x,y,undefined,undefined,false,true);
+            WA.ui.actionBar.addButton({
+                "id":"kamera",
+                "type":"action",
+                "imageSrc":"https://buenni86.github.io/tag-der-ausbildung/src/focus.png",
+                "toolTip":"Auf Bühne zoomen",
+                "callback": () => {WA.camera.set(x,y,undefined,undefined,false,true);}
+            })
         });
         WA.room.area.onLeave(area).subscribe(() => {
-            WA.camera.followPlayer(true)
+            WA.camera.followPlayer(true);
+            WA.ui.actionBar.removeButton("kamera");
         });
-    }
-
-    actionButton(button: ActionBarActionButtonDescriptor){
-        WA.ui.actionBar.addButton(button);
     }
 
     minimapButton(){
