@@ -130,7 +130,7 @@ class WAE {
                     currentWebsite.close();
                     currentWebsite = undefined;
                 } else {
-                    currentWebsite = await WA.nav.openCoWebSite("https://buenni86.github.io/tag-der-ausbildung/src/minimapper");
+                    currentWebsite = await WA.nav.openCoWebSite("https://buenni86.github.io/tag-der-ausbildung/src/minimapper",true);
                 }
             }
         })
