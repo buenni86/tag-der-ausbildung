@@ -89,7 +89,7 @@ class WAE {
             "imageSrc":"https://buenni86.github.io/tag-der-ausbildung/src/focus.png",
             "toolTip":"Auf Bühne zoomen",
             "callback": () => {
-                WA.camera.set(x,y,undefined,undefined,false,true);
+                WA.camera.set(x,y,undefined,undefined,true,true);
                 WA.ui.actionBar.removeButton("kamera");
                 WA.ui.actionBar.addButton(b2);
             }
