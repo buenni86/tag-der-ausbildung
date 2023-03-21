@@ -2,7 +2,6 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 import { ButtonDescriptor } from "@workadventure/iframe-api-typings";
-import { ActionBarActionButtonDescriptor } from "@workadventure/iframe-api-typings/front/Api/Iframe/Ui/ButtonActionBar";
 
 class WAE {
     buttons: {
