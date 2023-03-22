@@ -9,9 +9,11 @@ WA.onInit().then(() => {
 
     let mapURL = WA.room.mapURL
 
-    let mapImage = mapURL.substring(0, mapURL.lastIndexOf(".")) + "png";
+    let mapImage = mapURL.substring(0, mapURL.lastIndexOf(".")) + ".png";
 
     console.log(mapImage);
+
+
 
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
