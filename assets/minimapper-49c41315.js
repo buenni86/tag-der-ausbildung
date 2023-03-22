@@ -1,0 +1,1 @@
+import"./modulepreload-polyfill-3cfb730f.js";import{b as r}from"./init-22028896.js";WA.onInit().then(()=>{console.log("Scripting API ready"),console.log("Player tags: ",WA.player.tags),console.log(WA.room.id),console.log(WA.room.mapURL),r().then(()=>{console.log("Scripting API Extra ready")}).catch(o=>console.error(o))}).catch(o=>console.error(o));
