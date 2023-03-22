@@ -7,6 +7,7 @@ WA.onInit().then(() => {
     console.log('Player tags: ',WA.player.tags)
 
     console.log(WA.room.id);
+    console.log(WA.room.mapURL);
     
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
