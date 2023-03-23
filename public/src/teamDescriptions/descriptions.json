@@ -212,9 +212,9 @@
     {
         "name":"disco",
         "fullName":"Teams BBCS  und DISCO",
-        "mailto":"bbcs@deutschebahn.com,disco@deutschebahn.com",
+        "mailto":"bbcs@deutschebahn.com;disco@deutschebahn.com",
         "location":"Berlin",
-        "text":""
+        "text":"Das Team BBCS ist ein Berliner Beraterteam. Wir legen den Schwerpunkt auf Digitalisierungsberatung für Bahngesellschaften in Berlin. Wir begleiten den Kunden von der Ideenphase bis hin zur Umsetzung des Projekts. <br> Das Team DISCO ist ein in Berlin und Frankfurt angesiedeltes Beraterteam. Wir legen den Schwerpunkt auf die Operationalisierung von Strategien. D.h. wir beraten den Kunden ausgehend von seiner IT-Strategie hin zu möglichen Lösungen und Umsetzungen."
     },
     {
         "name":"core",
@@ -228,7 +228,7 @@
         "fullName":"Team Application Security Specialist 3",
         "mailto":"db.systel.team.ass3@deutschebahn.com",
         "location":"Frankfurt",
-        "text":"Das Team Application Security Specialists 3 (AppSec 3) führt im Verbund mit unseren Schwesterteams AppSec 1 & 2 Penetrationstests und Beratungen rund um die sichere Softwareentwicklung durch. Wir sind also die \"Hacker\" der DB Systel. Die BA-Studierenden entwickeln Software in Python, um bestimmte Angriffe auf Webanwendungen oder andere Systeme zu automatisieren. Wir würden uns sehr freuen, wenn du deine Abschlussarbeit bei uns schreiben würdest. Gerne unterstützen wir die Studierenden dabei mit unserer Erfahrung in der Betreuung von Bachelor- und Masterarbeiten. Um den Studierenden einen Einblick in unsere Arbeit zu geben, nehmen wir sie während der Praxisphase auch zu Penetrationstests mit. Vorkenntnisse in den Bereichen Python, Kommandozeile, Git, Netzwerk (TCP/IP) & Docker sind wünschenswert, aber nicht notwendig. Ist dein Interesse geweckt? Oder hast du noch Fragen? Dann melde dich bei <a href='tim.stoffel@deutschebahn.com'>Tim Stoffel</a>  oder <a href='sebastian.lippmann@deutschebahn.com'>Sebastian Lippmann</a>"
+        "text":"Das Team Application Security Specialists 3 (AppSec 3) führt im Verbund mit unseren Schwesterteams AppSec 1 & 2 Penetrationstests und Beratungen rund um die sichere Softwareentwicklung durch. Wir sind also die \"Hacker\" der DB Systel. Die BA-Studierenden entwickeln Software in Python, um bestimmte Angriffe auf Webanwendungen oder andere Systeme zu automatisieren. Wir würden uns sehr freuen, wenn du deine Abschlussarbeit bei uns schreiben würdest. Gerne unterstützen wir die Studierenden dabei mit unserer Erfahrung in der Betreuung von Bachelor- und Masterarbeiten. Um den Studierenden einen Einblick in unsere Arbeit zu geben, nehmen wir sie während der Praxisphase auch zu Penetrationstests mit. Vorkenntnisse in den Bereichen Python, Kommandozeile, Git, Netzwerk (TCP/IP) & Docker sind wünschenswert, aber nicht notwendig. Ist dein Interesse geweckt? Oder hast du noch Fragen? Dann melde dich bei <a href='mailto:tim.stoffel@deutschebahn.com'>Tim Stoffel</a>  oder <a href='mailto:sebastian.lippmann@deutschebahn.com'>Sebastian Lippmann</a>"
     },
     {
         "name":"ciso",
