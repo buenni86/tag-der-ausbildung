@@ -9,16 +9,7 @@
                 "col4":"Gleis"
             },
             "unterschrift":"",
-            "links": [
-                {"link": {
-                    "to" : "#",
-                    "title": "Test1"
-                }},
-                {"link": {
-                    "to" : "#",
-                    "title": "Test2"
-                }}
-            ]
+            "links": []
         },
         "content": [
             {"eintrag": {
