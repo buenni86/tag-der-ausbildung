@@ -2681,16 +2681,6 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"Hauptb\u00fchne"
-                        }, 
-                        {
-                         "name":"jitsiTrigger",
-                         "type":"string",
-                         "value":"onaction"
-                        }, 
-                        {
-                         "name":"jitsiTriggerMessage",
-                         "type":"string",
-                         "value":"Dr\u00fccke LEERTASTE um dem Meetingraum beizutreten"
                         }],
                  "rotation":0,
                  "visible":true,
