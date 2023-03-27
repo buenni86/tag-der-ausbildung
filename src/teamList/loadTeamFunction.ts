@@ -25,8 +25,7 @@ function clickycliykwarpywarpyschnorkimakarioni(standort:string, id: string){ //
             roomURL = "https://play.workadventu.re/@/db-systel/db/erfurt-ausbildung#" + id;
             break; 
         } 
-        default: { 
-            //statements; 
+        default: {
             break; 
         }
     }
