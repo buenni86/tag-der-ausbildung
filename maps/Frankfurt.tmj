@@ -3082,7 +3082,7 @@
                 {
                  "name":"exitUrl",
                  "type":"string",
-                 "value":".\/tag-der-ausbildung#startBack"
+                 "value":".\/tag-der-ausbildung#arrivals"
                 }],
          "type":"tilelayer",
          "visible":true,
@@ -5964,20 +5964,21 @@
                 }, 
                 {
                  "class":"",
-                 "height":15.3333,
+                 "height":63.3333,
                  "id":215,
                  "name":"",
                  "rotation":0,
                  "text":
                     {
                      "fontfamily":"Press Start 2P",
-                     "text":"Team SfROTP",
+                     "halign":"center",
+                     "text":"Team Solutions for Rail Operational Timetable Provisioning ",
                      "wrap":true
                     },
                  "visible":true,
-                 "width":178.001,
-                 "x":3083.9995,
-                 "y":2232.33335
+                 "width":368.001000000001,
+                 "x":2991.9995,
+                 "y":2206.33335
                 }, 
                 {
                  "class":"",
@@ -7564,7 +7565,7 @@
          "value":"\/src\/main.ts"
         }],
  "renderorder":"right-down",
- "tiledversion":"1.9.0",
+ "tiledversion":"1.9.2",
  "tileheight":32,
  "tilesets":[
         {

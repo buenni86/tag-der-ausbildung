@@ -12,6 +12,7 @@ export default defineConfig({
                 web_station_sign: "./src/customStationSign/web_station_sign.html",
                 teamDescripions: "./src/teamDescriptions/index.html",
                 minimapper: "./src/minimapper/index.html",
+                teamList:"./src/teamList/index.html",
                 ...getMapsScripts(maps),
             },
         },
