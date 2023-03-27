@@ -5,17 +5,19 @@ import WAE from "./wa-lib";
 let wae = new WAE();
 
 wae.init().then(() => {
-    async () => {
-        var pos = await WA.player.getPosition()
-        if(pos.x<1500){
-            wae.popUpNoArea("infoPopUp","Willkommen bei Workadveutre!\nBewege dich mit WASD, Pfeiltasten oder Rechtsklick.\nDieses Event wird teilweise Aufgezeichnet",[wae.buttons.close]);
-        }
-    }
+    anfangsPopup();
     wae.minimapButton();
     wae.cameraEvent(640,735,"bühne");
     wae.popUp("evsPopup","dbPlanetArea","Hier zu unserer DB-Planet Seite:",[{label: "OK",callback: (() => {WA.nav.openTab("https://www.db.de/workadventure")})}]);
     teamListButton();
 });
+
+async function anfangsPopup() {
+    var pos = await WA.player.getPosition()
+    if(pos.x<1500){
+        wae.popUpNoArea("infoPopUp","Willkommen bei Workadveutre!\nBewege dich mit WASD, Pfeiltasten oder Rechtsklick.\nDieses Event wird teilweise Aufgezeichnet",[wae.buttons.close]);
+    }
+}
 
 function teamListButton() {
     let currentWebsite: any = undefined;
