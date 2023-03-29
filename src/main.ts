@@ -10,6 +10,14 @@ wae.init().then(() => {
     wae.cameraEvent(640,735,"bühne");
     wae.popUp("evsPopup","dbPlanetArea","Hier zu unserer DB-Planet Seite:",[{label: "OK",callback: (() => {WA.nav.openTab("https://www.db.de/workadventure")})}]);
     teamListButton();
+    wae.popUp("locker","lockerPop","An dem Locker hängt ein Notiz.\nMöchtest du sie Lesen?",[{
+        label: "Lesen",
+        className: "primary",
+        callback: (p) => {
+            p.close();
+            wae.popUpNoArea("lockerPop","Map Developed by Leon Prinz\nDanke an Team EVS <3",[wae.buttons.close])
+        }
+    },wae.buttons.close])
 });
 
 async function anfangsPopup() {

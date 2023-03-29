@@ -2153,33 +2153,6 @@
          "objects":[
                 {
                  "class":"area",
-                 "height":350,
-                 "id":61,
-                 "name":"meeting",
-                 "properties":[
-                        {
-                         "name":"jitsiConfig",
-                         "type":"string",
-                         "value":"{ \"startWithVideoMuted\": false, \"startWithAudioMuted\": false, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
-                        }, 
-                        {
-                         "name":"jitsiNoPrefix",
-                         "type":"bool",
-                         "value":true
-                        }, 
-                        {
-                         "name":"jitsiRoom",
-                         "type":"string",
-                         "value":"tag-der-ausbildung-team-sales-development"
-                        }],
-                 "rotation":0,
-                 "visible":true,
-                 "width":414,
-                 "x":466.010727455582,
-                 "y":398.340931947704
-                }, 
-                {
-                 "class":"area",
                  "height":343.333333333333,
                  "id":67,
                  "name":"meeting",
@@ -2722,6 +2695,87 @@
                  "width":414.5,
                  "x":16,
                  "y":1053.46
+                }, 
+                {
+                 "class":"area",
+                 "height":191.333,
+                 "id":128,
+                 "name":"meeting",
+                 "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": false, \"startWithAudioMuted\": false, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiNoPrefix",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"tag-der-ausbildung-system-team-sales-development-2"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":265.334,
+                 "x":608.333,
+                 "y":416.1665
+                }, 
+                {
+                 "class":"area",
+                 "height":130.333,
+                 "id":129,
+                 "name":"meeting",
+                 "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": false, \"startWithAudioMuted\": false, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiNoPrefix",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"tag-der-ausbildung-system-team-sales-development-1"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":397.333,
+                 "x":472.333,
+                 "y":607.5005
+                }, 
+                {
+                 "class":"area",
+                 "height":190.666,
+                 "id":130,
+                 "name":"meeting",
+                 "properties":[
+                        {
+                         "name":"jitsiConfig",
+                         "type":"string",
+                         "value":"{ \"startWithVideoMuted\": false, \"startWithAudioMuted\": false, \"liveStreamingEnabled\": false, \"fileRecordingsEnabled\": false, \"disableDeepLinking\": true, \"etherpad_base\": null,\"breakoutRooms\" : {\n\n\"hideAddRoomButton\": true,\n\n\"hideJoinRoomButton\": true\n\n}, \"toolbarButtons\": [ \"camera\",\"chat\",\"closedcaptions\",\"desktop\",\"download\",\"filmstrip\",\"fullscreen\",\"hangup\",\"help\",\"microphone\",\"mute-everyone\",\"mute-video-everyone\",\"participants-pane\",\"profile\",\"raisehand\",\"select-background\",\"settings\",\"shareaudio\",\"sharedvideo\",\"shortcuts\",\"tileview\",\"toggle-camera\",\"videoquality\",\"__end\"] }"
+                        }, 
+                        {
+                         "name":"jitsiNoPrefix",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"jitsiRoom",
+                         "type":"string",
+                         "value":"tag-der-ausbildung-system-team-sales-development-3"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":135,
+                 "x":472.333,
+                 "y":416.1675
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2842,7 +2896,7 @@
          "y":0
         }],
  "nextlayerid":89,
- "nextobjectid":128,
+ "nextobjectid":131,
  "orientation":"orthogonal",
  "properties":[
         {
