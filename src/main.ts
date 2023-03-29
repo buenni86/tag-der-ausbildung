@@ -10,6 +10,7 @@ wae.init().then(() => {
     wae.cameraEvent(640,735,"bühne");
     wae.popUp("evsPopup","dbPlanetArea","Hier zu unserer DB-Planet Seite:",[{label: "OK",callback: (() => {WA.nav.openTab("https://www.db.de/workadventure")})}]);
     teamListButton();
+    wae.popUp("lupPop", "lupPopDisp", "Wir bieten Praxisphasen für BA-Studenten an!", [wae.buttons.close]);
 });
 
 async function anfangsPopup() {

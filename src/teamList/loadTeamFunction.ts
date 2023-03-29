@@ -1,16 +1,16 @@
 /// <reference types="@workadventure/iframe-api-typings" />
 
 WA.onInit().then(() => {
-    forIDgettheIDandDoTheIDthingwhileBeingtheIDwarpwarpthisthing("fra","evs");
-    forIDgettheIDandDoTheIDthingwhileBeingtheIDwarpwarpthisthing("fra","evps");
+    addClickEventAndWarp("fra","evs");
+    addClickEventAndWarp("fra","evps");
 
 }).catch(e => console.error(e));
 
-function forIDgettheIDandDoTheIDthingwhileBeingtheIDwarpwarpthisthing(standort:string, id: string){//ich hab kein Bock mehr bitte funktioniere danke LG Leon (mag typescript sehr doll)
-    document.getElementById(id)?.addEventListener("click", clickycliykwarpywarpyschnorkimakarioni(standort,id))
+function addClickEventAndWarp(standort:string, id: string){//ich hab kein Bock mehr bitte funktioniere danke LG Leon (mag typescript sehr doll)
+    document.getElementById(id)?.addEventListener("click", buildGoTo(standort,id))
 }
 
-function clickycliykwarpywarpyschnorkimakarioni(standort:string, id: string){ //aaaaaaaAAAAaAaAaAaaAaaAaAAAaAaaaAaaaaaAAAA1!!!11!!111111!!!!!!1!!11!!1
+function buildGoTo(standort:string, id: string){
     let roomURL: string = "https://play.workadventu.re/@/db-systel/db/tag-der-ausblidung";
     switch(standort){
         case "fra": {
@@ -29,7 +29,7 @@ function clickycliykwarpywarpyschnorkimakarioni(standort:string, id: string){ //
             break; 
         }
     }
-    return () => {WA.nav.goToPage(roomURL)}
+    return () => {WA.nav.goToPage(roomURL); location.reload();}
 }
 
 export {}
