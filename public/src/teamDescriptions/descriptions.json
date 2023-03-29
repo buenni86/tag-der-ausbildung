@@ -72,9 +72,9 @@
     {
         "name":"pel",
         "fullName":"PEL-Team",
-        "mailto":"PROJ.QTLUP.INTERN@deutschebahn.com",
+        "mailto":"lup@deutschebahn.com",
         "location":"Frankfurt",
-        "text":"Wir beraten Kunden zum Thema Performance und möchten sicherstellen, dass Anwendungen stabil genutzt und die Antwortzeiten für die User „Spaß machen“. </p><p>Deshalb analysieren wir gemeinsam mit dem Kunden ihre Systeme und stellen mit unseren Last- und Performancetests sicher, dass das System den Anforderungen gerecht wird und sich stetig verbessert. Dazu schreiben wir Java-Scripte, bauen die Infrastruktur auf und analysieren Parameter des Systems (CPU/Datenbank etc.). "
+        "text":"Wir beraten Kunden zum Thema Performance und möchten sicherstellen, dass Anwendungen stabil genutzt und die Antwortzeiten für die User „Spaß machen“. </p><p>Deshalb analysieren wir gemeinsam mit dem Kunden ihre Systeme und stellen mit unseren Last- und Performancetests sicher, dass das System den Anforderungen gerecht wird und sich stetig verbessert. Dazu schreiben wir Java-Scripte, bauen die Infrastruktur auf und analysieren Parameter des Systems (CPU/Datenbank etc.). <a href=\"https://db-planet.deutschebahn.com/pages/e2e-quality-abv/apps/content/inhalt-2\"> DB Planet </a>"
     },
     {
         "name":"dbds",
