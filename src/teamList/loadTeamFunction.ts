@@ -1,6 +1,6 @@
 /// <reference types="@workadventure/iframe-api-typings" />
 
-WA.onInit().then(() => {#
+WA.onInit().then(() => {
     //fra
     addClickEventAndWarp("evs","fra","evs");
     addClickEventAndWarp("evps","fra","evps");
