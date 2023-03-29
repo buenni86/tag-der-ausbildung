@@ -2331,6 +2331,28 @@
                  "width":134.666666666667,
                  "x":270,
                  "y":1897.16666666667
+                }, 
+                {
+                 "class":"area",
+                 "height":19.5,
+                 "id":115,
+                 "name":"locker",
+                 "rotation":0,
+                 "visible":true,
+                 "width":113.5,
+                 "x":790.5,
+                 "y":191
+                }, 
+                {
+                 "class":"area",
+                 "height":116.5,
+                 "id":116,
+                 "name":"lockerPop",
+                 "rotation":0,
+                 "visible":true,
+                 "width":164.5,
+                 "x":764,
+                 "y":32.5
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -2980,7 +3002,7 @@
          "y":0
         }],
  "nextlayerid":79,
- "nextobjectid":115,
+ "nextobjectid":117,
  "orientation":"orthogonal",
  "properties":[
         {
