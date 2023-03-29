@@ -29,7 +29,7 @@ function clickycliykwarpywarpyschnorkimakarioni(standort:string, id: string){ //
             break; 
         }
     }
-    return () => {WA.nav.goToRoom(roomURL)}
+    return () => {WA.nav.goToPage(roomURL)}
 }
 
 export {}
