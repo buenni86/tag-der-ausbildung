@@ -29,7 +29,7 @@ function buildGoTo(standort:string, id: string){
             break; 
         }
     }
-    return () => {WA.nav.goToPage(roomURL); location.reload();}
+    return () => {WA.nav.goToPage(roomURL); window.top?.location.reload();}
 }
 
 export {}
