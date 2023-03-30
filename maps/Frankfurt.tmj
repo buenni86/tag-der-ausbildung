@@ -7120,7 +7120,7 @@
                         {
                          "name":"jitsiRoom",
                          "type":"string",
-                         "value":"tag-der-ausbildung-team-infinity"
+                         "value":"tag-der-ausbildung-einheit-infinity"
                         }],
                  "rotation":0,
                  "visible":true,
